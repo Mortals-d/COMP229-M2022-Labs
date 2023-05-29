@@ -1,0 +1,11 @@
+{
+  "name": "comp229_s2022_wk2",
+  "version": "0.0.1",
+  "description": "a demo project for comp229 in the summer semester at CC",
+  "main": "server.js",
+  "author": "Haibo",
+  "license": "MIT",
+  "dependencies": {
+    "mime-types": "^2.1.35"
+  }
+}
