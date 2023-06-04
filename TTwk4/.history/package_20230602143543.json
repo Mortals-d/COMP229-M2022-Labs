@@ -1,0 +1,26 @@
+{
+  "name": "comp229_s2022_wk3",
+  "version": "0.0.2",
+  "description": "a demo project for comp229 lesson 3 in the summer semester at CC",
+  "main": "server.js",
+  "author": "Haibo",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "^4.18.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jquery": "^3.5.16",
+    "@types/mime-types": "^2.1.1",
+    "@types/node": "^20.2.5"
+  }
+}
