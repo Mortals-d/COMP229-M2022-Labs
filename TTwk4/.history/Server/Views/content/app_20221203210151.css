@@ -1,4 +1,4 @@
-* { 
+﻿* { 
 	box-sizing: border-box;
     margin: 0;
 }
@@ -11,7 +11,8 @@
 }
 body {
 	font-family: Verdana, Arial, sans-serif;
-	background-color: #e2e2e2;	
+	background-color: #e2e2e2;
+	
 }
 #wrapper {
 	background-color: #e3e3e3;
@@ -167,7 +168,7 @@ header,  main, nav,footer, aside, figure {
 
 
 /* Large Display */
-/* @media (min-width: 1024px) {
+@media (min-width: 1024px) {
 	body     { 
 		background-color: #cfcfcf; 
 	}
@@ -206,10 +207,10 @@ header,  main, nav,footer, aside, figure {
 	}
 	
 						} 
-		  */
+		 
 	
 /* Medium Display */
-/* @media (min-width: 600px) and (max-width:1024px) {
+@media (min-width: 600px) and (max-width:1024px) {
 	#wrapper { 
 		 display: grid; 
 		grid-template-columns: 55% auto;
@@ -235,4 +236,4 @@ header,  main, nav,footer, aside, figure {
 	map{
 		display: none;
 	}
-}	 */
+}	
