@@ -22,13 +22,13 @@ router.get('/about', function(req:express.Request, res: express.Response, next: 
 /* Display projects page. */
 router.get('/projects', function(req:express.Request, res: express.Response, next: express.NextFunction)
 {
-  res.render('index', { title: 'My Projects' , page: 'projects'});
+  res.render('index', { title: 'Our Projects' , page: 'projects'});
 });
 
 /* Display services page. */
 router.get('/services', function(req:express.Request, res: express.Response, next: express.NextFunction)
 {
-  res.render('index', { title: 'My Services' , page: 'services'});
+  res.render('index', { title: 'Our Services' , page: 'services'});
 });
 
 /* Display contact page. */
