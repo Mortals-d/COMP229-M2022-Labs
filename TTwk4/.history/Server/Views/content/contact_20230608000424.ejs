@@ -1,0 +1,52 @@
+<div class="container">    
+    <main>
+         <h3>Show us your preference</h3><br>
+       <form action="localhost:3000/" method="post" enctype="text/plain">
+        <div id="no-1">
+          <label for="firstName"><b>*First Name: </b></label>
+          <input class="fillinblank" id="firstName" name="firstName"  tabindex="1" type="text">
+        </div>
+        <div id="no-2">
+          <label for="lastName"><b>*Last Name: </b></label>
+          <input class="fillinblank" id="lastName" name="lastName"  tabindex="2" type="text">
+        </div>
+        <div id="no-3">
+          <label for="phone"><b>Phone number: </b></label>
+          <input class="fillinblank" id="phone" name="phone"  tabindex="3" type="tel" maxlength="12">
+        </div>
+        <div id="no-4">
+          <label for="myEmail"><b>*Email:</b></label>
+          <input class="fillinblank" type="email" id="myEmail" name="myEmail" tabindex="4">
+        </div>
+        <div id="no-5">
+          <label for="typeOfProperty"><b>Type of property:&nbsp;&nbsp;</b></label>
+          <input type="radio" id="typeOfProperty" name="typeOfProperty" tabindex="5">house&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" id="typeOfProperty" name="typeOfProperty" tabindex="6">condominium
+        </div>
+        <div id="no-6">
+          <label for="numOfBedrooms"><b>Number of bedrooms:</b></label>
+          <input class="fillinblank" type="number" id="numOfBedrooms" name="numOfBedrooms" tabindex="7" min=1 max=20>      
+        </div>
+        <div id="no-7">
+          <label for="numOfBathrooms"><b>Number of bathrooms:</b></label>
+          <input class="fillinblank" type="number" id="numOfBathrooms" name="numOfBathrooms" tabindex="8" min=0 max=20>      
+        </div>
+        <div><b>Range of Price:</b></div>
+        <div id="no-8">
+          <label for="priceMin">Min:</label>
+          <input class="fillin8" type="number" id="priceMin" name="priceMin" tabindex="9" min="0">   &nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="priceMax">Max:</label>
+          <input class="fillin8" type="number" id="priceMax" name="priceMax" tabindex="10" min="0">   
+        </div>
+        <div id="no-9">
+          <label for="myComments"><b>Comments:</b></label><br>
+            <textarea class="fillinblank" id="myComments" name="myComments" rows=2 cols=30></textarea><br>  
+        </div>
+        <div id="submitAndReset">
+          <input id="submit" name="submit" tabindex="47" type="submit" value="SUBMIT">
+          <b></b>
+          <input id="reset" name="reset" tabindex="48" type="reset" value="CLEAR FORM">         
+        </div>
+       </form>
+    </main>
+</div>

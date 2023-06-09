@@ -16,13 +16,18 @@ main {
 aside { 
 	text-align: center; 
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* text-align: center; */
-    margin-top: 50px;
-  }
+/* footer {
+	background-color: rgb(38, 7, 60);
+	font-size: 70%;
+	text-align: center;
+	padding: 0.5em 0;
+	color: white;
+} */
+/* img { 
+	padding-top: 1em;
+	padding-left: 0.5em; 
+	padding-right: 0.5em;
+} */
 h2 {
 	color: rgba(16, 7, 60, 0.938);
 }
@@ -88,11 +93,10 @@ nav link active{
 }
 
 /*form*/
-
 #submitAndReset{
     display: grid;
     grid-template-columns: auto 20% auto;
-   margin: 0;
+   margin: 50px;
 }
 #submit{
     border: 0;
@@ -116,7 +120,7 @@ nav link active{
     color: rgb(255, 255, 255);    
 }
 .fillinblank{
-	background-color: rgb(234, 245, 254);
+	background-color: rgb(224, 241, 255);
     border:0;
     border-bottom: solid 1px;
     width:100%;
@@ -126,6 +130,4 @@ nav link active{
 .references{
 	font-size: small;
 }
-.contact-info{
-	margin-top: 50px;
-}
+

@@ -2,11 +2,20 @@
 	box-sizing: border-box;
     margin: 0;
 }
+#bannersign{
+	width: 150px;
+	text-align: center;
+}
+#bannersign1{
+	padding: 0;
+}
 body {
 	font-family: Verdana, Arial, sans-serif;
 	background-color: #e2e2e2;	
 }
-
+#wrapper {
+	background-color: #e3e3e3;
+}
 main {   
 	background-color: #FFFFFF;
     color: #272727d7;
@@ -16,13 +25,18 @@ main {
 aside { 
 	text-align: center; 
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* text-align: center; */
-    margin-top: 50px;
-  }
+/* footer {
+	background-color: rgb(38, 7, 60);
+	font-size: 70%;
+	text-align: center;
+	padding: 0.5em 0;
+	color: white;
+} */
+/* img { 
+	padding-top: 1em;
+	padding-left: 0.5em; 
+	padding-right: 0.5em;
+} */
 h2 {
 	color: rgba(16, 7, 60, 0.938);
 }
@@ -35,15 +49,14 @@ nav{
 }
 nav ul { 
 	list-style-type: none;
-      padding-left: 0;
-	  margin-right:10px; 
+      padding-left: 0; 
+	border-top: 1px solid #EEEEEE;
 }
 nav li {  
       text-align: center;
 	padding-top: .5em;
 	padding-bottom: .5em;
 	margin-left:20px;
-	margin-right:20px;
 }
 nav a { 
 	text-decoration: none;		
@@ -55,8 +68,8 @@ nav a {
 nav a:link {
 	color: rgb(156, 185, 207);
 }
-a.nav-link.active:hover {
-	color: rgb(162, 191, 203);
+nav a:hover {
+	color: rgb(4, 42, 253);
 }
 nav link active{
 	color:#FFFFFF;
@@ -88,11 +101,10 @@ nav link active{
 }
 
 /*form*/
-
 #submitAndReset{
     display: grid;
     grid-template-columns: auto 20% auto;
-   margin: 0;
+   margin: 50px;
 }
 #submit{
     border: 0;
@@ -116,16 +128,22 @@ nav link active{
     color: rgb(255, 255, 255);    
 }
 .fillinblank{
-	background-color: rgb(234, 245, 254);
+	background-color: #e2e2e2;
     border:0;
     border-bottom: solid 1px;
     width:100%;
     display: flex;
     flex-direction: row;
 }
+.fillin8{
+	background-color: #e2e2e2;
+    border:0;
+    border-bottom: solid 1px;
+    width:30%;
+    display: inline-flex;
+    flex-direction: row;
+}
 .references{
 	font-size: small;
 }
-.contact-info{
-	margin-top: 50px;
-}
+

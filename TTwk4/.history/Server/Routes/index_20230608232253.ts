@@ -8,37 +8,37 @@ router.get('/', function(req:express.Request, res: express.Response, next: expre
 });
 
 /* Display home page. */
-router.get('/home', function(req:express.Request, res: express.Response, next: express.NextFunction) 
+router.get('/home', function(req:express.Request, res: express.Response, next: express.NextFunction)//a callback func? 
 {
   res.render('index', { title: 'Homepage of Haibo Dong' , page: 'home'});
 });
 
 /* Display about page. */
-router.get('/about', function(req:express.Request, res: express.Response, next: express.NextFunction)
+router.get('/about', function(req:express.Request, res: express.Response, next: express.NextFunction)//a callback func? 
 {
   res.render('index', { title: 'About Me' , page: 'about'});
 });
 
 /* Display projects page. */
-router.get('/projects', function(req:express.Request, res: express.Response, next: express.NextFunction)
+router.get('/projects', function(req:express.Request, res: express.Response, next: express.NextFunction)//a callback func? 
 {
   res.render('index', { title: 'Our Projects' , page: 'projects'});
 });
 
 /* Display services page. */
-router.get('/services', function(req:express.Request, res: express.Response, next: express.NextFunction)
+router.get('/services', function(req:express.Request, res: express.Response, next: express.NextFunction)//a callback func? 
 {
   res.render('index', { title: 'Our Services' , page: 'services'});
 });
 
 /* Display contact page. */
-router.get('/contact', function(req:express.Request, res: express.Response, next: express.NextFunction)
+router.get('/contact', function(req:express.Request, res: express.Response, next: express.NextFunction)//a callback func? 
 {
   res.render('index', { title: 'Contact Us' , page: 'contact'});
 
 });
 
-router.post('/contact', function(req:express.Request, res: express.Response, next: express.NextFunction)
+router.get('/contact', function(req:express.Request, res: express.Response, next: express.NextFunction)//a callback func? 
 {
   const { firstName, lastName, contactNumber, email, message } = req.body;
 

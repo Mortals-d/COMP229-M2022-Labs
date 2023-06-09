@@ -88,6 +88,9 @@ nav link active{
 }
 
 /*form*/
+form label{
+	text-align: left;
+}
 
 #submitAndReset{
     display: grid;

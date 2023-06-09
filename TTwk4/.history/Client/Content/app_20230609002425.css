@@ -129,3 +129,6 @@ nav link active{
 .contact-info{
 	margin-top: 50px;
 }
+.container-fluid{
+	text-align: center;
+}

@@ -38,7 +38,7 @@ router.get('/contact', function(req:express.Request, res: express.Response, next
 
 });
 
-router.post('/contact', function(req:express.Request, res: express.Response, next: express.NextFunction)
+router.get('/contact', function(req:express.Request, res: express.Response, next: express.NextFunction)
 {
   const { firstName, lastName, contactNumber, email, message } = req.body;
 
