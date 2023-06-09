@@ -1,7 +1,7 @@
 {
-  "name": "comp229_s2022_wk3",
+  "name": "comp229_2023m_assignment1",
   "version": "0.0.2",
-  "description": "a demo project for comp229 lesson 4 in the summer semester at CC",
+  "description": "I followed the recording of Tom Tsiliopoulos on youtube to build this framework and then use it for assignment1. The link of that course is https://www.youtube.com/watch?v=l2OCRRjnJgo&list=PL5svY1bZDBZrLEL4AtNker0ivaHn8zg9T&index=40.",
   "main": "server.js",
   "author": "Haibo",
   "license": "MIT",
