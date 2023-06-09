@@ -21,7 +21,7 @@ router.get('/services', function (req, res, next) {
     res.render('index', { title: 'Our Services', page: 'services' });
 });
 router.get('/contact', function (req, res, next) {
-    res.render('index', { title: 'Contact Us', page: 'contact' });
+    res.render('index', { title: 'Contact Me', page: 'contact' });
 });
 router.post('/contact', function (req, res, next) {
     const { firstName, lastName, contactNumber, email, message } = req.body;
